@@ -14,7 +14,7 @@ mv cpanel_redis-main/* ./
 mv cpanel_redis-main/.* ./
 
 # Register plugin with cPanel
-/usr/local/cpanel/scripts/install_plugin /usr/local/cpanel/base/frontend/paper_lantern/cruze_redis --theme paper_lantern
+/usr/local/cpanel/scripts/install_plugin /usr/local/cpanel/base/frontend/paper_lantern/cruze_redis/redis_cpanel-main --theme paper_lantern
 
 #Cleanup by removing release
 echo "Cleaning Up..."
