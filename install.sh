@@ -3,7 +3,7 @@ mkdir /usr/local/cpanel/base/frontend/paper_lantern/cruze_redis
 cd /usr/local/cpanel/base/frontend/paper_lantern/cruze_redis
 
 echo "Downloading plugin..."
-wget -q https://github.com/cruzehost/redis_cpanel/archive/master.zip -O cruze_redis.zip
+wget -q https://github.com/cruzehost/redis_cpanel/archive/main.zip -O cruze_redis.zip
 
 # Extract archive zip
 echo "Extracting plugin..."
