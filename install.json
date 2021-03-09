@@ -1,1 +1,1 @@
-[{"id":"cruze_redis","group_id":"software","icon":"icons/cruze_redis.png","order":"1","featuremanager":true,"type":"link","uri":"cruze_redis/redis_cpanel-main/index.live.php","name":"CruzeHost Redis Manager"}]
+[{"id":"cruze_redis","group_id":"software","icon":"icons/cruze_redis.png","order":"1","featuremanager":true,"type":"link","uri":"cruze_redis/index.live.php","name":"CruzeHost Redis Manager"}]

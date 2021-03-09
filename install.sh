@@ -11,14 +11,15 @@ unzip cruze_redis.zip
 
 # Fix folder structure
 mv redis_cpanel-main/* ./
-mv redis_cpanel-main/.* ./
+#mv redis_cpanel-main/.* ./
 
 # Register plugin with cPanel
-/usr/local/cpanel/scripts/install_plugin /usr/local/cpanel/base/frontend/paper_lantern/cruze_redis/redis_cpanel-main --theme paper_lantern
+/usr/local/cpanel/scripts/install_plugin /usr/local/cpanel/base/frontend/paper_lantern/cruze_redis --theme paper_lantern
 
 #Cleanup by removing release
 echo "Cleaning Up..."
 rm -f cruze_redis.zip
+rm -rf redis_cpanel-main
 
 # Fix permissions
 echo "Finalizing permissions..."
