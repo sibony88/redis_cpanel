@@ -8,7 +8,7 @@ $stylesheetsAndMetaTags = '
     <link rel="stylesheet" href="style.css" charset="utf-8"/>
 ';
 
-$cpanelHeader = str_replace('</head>', $stylesheetsAndMetaTags . '</head>', $cpanel->header( "Redis Manager by RSO Hosting" ));
+$cpanelHeader = str_replace('</head>', $stylesheetsAndMetaTags . '</head>', $cpanel->header( "Redis Manager by Cruze Host" ));
 echo $cpanelHeader;
 
 ?>

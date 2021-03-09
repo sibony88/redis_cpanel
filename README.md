@@ -1,4 +1,4 @@
-# rso-redis
+# cruze-redis
 
 A cPanel Plugin for controlling Redis instances by users.
 
@@ -9,7 +9,7 @@ To install the plugin, please do the following:
 1. Login to your server via SSH
 2. Clone the repo:
 ```
-    git clone https://github.com/RSOHosting/cpanel_redis.git 
+    git clone https://github.com/cruzehost/redis_cpanel.git 
 ```
 3. As root, do the following:
 ```
