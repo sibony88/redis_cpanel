@@ -10,8 +10,8 @@ echo "Extracting plugin..."
 unzip cruze_redis.zip
 
 # Fix folder structure
-mv cpanel_redis-main/* ./
-mv cpanel_redis-main/.* ./
+mv redis_cpanel-main/* ./
+mv redis_cpanel-main/.* ./
 
 # Register plugin with cPanel
 /usr/local/cpanel/scripts/install_plugin /usr/local/cpanel/base/frontend/paper_lantern/cruze_redis/redis_cpanel-main --theme paper_lantern
